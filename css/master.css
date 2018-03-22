@@ -1,0 +1,47 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+/* .logotipo {
+  margin: 0;
+} */
+
+.contenedorMenu {
+  background: black;
+  line-height: 50px;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  border: 2px solid white;
+  height: 50px;
+  width: 200px;
+  background: black;
+  color: white;
+  margin: 10px;
+  text-align: center;
+  font-size: 16px;
+  list-style: none;
+  transition: 500ms;
+}
+
+.menu:hover {
+  color: red;
+}
+
+.cuerpo {
+  font-family: Montserrat;
+  font-size: 28px;
+  margin-top: 100px;
+  
+  width: 100%;
+  text-align: justify;
+}
+
+.cuerpo h1 {
+  text-align: center;
+}
